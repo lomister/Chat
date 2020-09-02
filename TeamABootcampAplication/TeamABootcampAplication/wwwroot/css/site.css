@@ -1,0 +1,354 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+    color: #0366d6;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #1b6ec2;
+    border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom {
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+    box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+    font-size: 1rem;
+    line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 20px; /* Vertically center the text there */
+    background-color: white;
+}
+
+.p-20 {
+    padding-top: 20px;
+}
+
+.btn-facebook {
+    color: white;
+    background-color: #3b5998;
+    border: 0;
+}
+
+.register {
+    text-align: right !important;
+    margin-right: 300px;
+    float: right;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+    background: linear-gradient(to bottom, #66ffff 0%, #ccffcc 100%);
+}
+
+@media screen and (max-width: 300px) {
+    span.psw {
+        display: block;
+        float: none;
+    }
+}
+
+.container-chat {
+    /*min-width: 500px;
+    max-width: 1000px;
+    min-height: 800px;*/
+    margin: 60px auto;
+    padding: 0;
+    border-radius: 7px;
+}
+
+.chat-search {
+    padding: 10px 20px 10px 20px;
+    overflow: hidden;
+}
+
+.chat-tray {
+    background: rgb(220,220,220);
+    padding: 10px 15px;
+    border-radius: 7px;
+}
+
+.chat-tray-height {
+    height: 70px;
+    margin-top: 8px;
+}
+
+.chat-tray-height2 {
+    height: 50px;
+}
+
+.search-box {
+    background: #fafafa;
+    padding: 10px 29px 10px 20px;
+    border-radius: 7px;
+}
+
+input {
+    border: none;
+    border-radius: 7px;
+}
+
+.input-wrapper {
+    background: #fff;
+    border-radius: 40px;
+}
+
+i {
+    color: grey;
+    margin-left: 7px;
+    vertical-align: middle;
+}
+
+.profile-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+}
+
+.text-danger {
+    font-size: 16px;
+}
+
+.text-success {
+    font-size: 16px;
+    color: green;
+}
+
+.icon-right {
+    float: right;
+}
+
+.chat-box-tray {
+    background: #eee;
+    display: flex;
+    align-items: baseline;
+    padding: 10px 15px;
+    align-items: center;
+    margin-top: 19px;
+    border-radius: 7px;
+    position: relative;
+    bottom: 0;
+}
+
+.chat-list {
+    height: 500px;
+    overflow-y: auto;
+}
+
+.chat-guys {
+    background: #eee;
+    color: black;
+    font-size: 1.3rem;
+    border-bottom: grey;
+    padding: 20px 20px 20px 15px;
+}
+
+.chat-guys:hover {
+    background: #c4c4c4;
+    cursor: pointer;
+}
+
+hr {
+    color: white;
+}
+
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px; /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+}
+
+.icon {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+}
+
+.modal-body {
+    height: 600px;
+    overflow-y: auto;
+    flex-direction: column-reverse;
+}
+
+.btn-marge {
+    margin-left: 5px;
+}
+
+.icons {
+    border-radius: 7px;
+    float: right;
+}
+
+.card {
+    background-color: rgba(0,0,0,0.2) !important;
+}
+
+.container {
+    height: 100%;
+    align-content: center;
+}
+
+.card {
+    margin-top: 50px;
+}
+
+.message-container {
+    height: 500px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    flex-direction: column-reverse;
+}
+
+.message-row {
+    display: grid;
+    margin-bottom: 20px; 
+}
+
+.message-text {
+    padding: 9px 14px;
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.message-time {
+    font-size: 1rem;
+    color: #777;
+}
+
+.you-message {
+    justify-content: end;
+    justify-items: end;
+}
+
+.other-message {
+    justify-items: start;
+}
+
+.message-user {
+    font-size: 1.1rem;
+    color: black;
+}
+
+.you-message .message-text {
+    background: #0366d6;
+    color: white;
+    border: 1px solid #0366d6;
+    border-radius: 14px 14px 0 14px;
+}
+
+.other-message .message-text {
+    background: gainsboro;
+    color: white;
+    border: 1px solid grey;
+    border-radius: 14px 14px 0 14px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+.messages {
+    list-style-type: none;
+    padding: 9px 14px;
+    font-size: 1.6rem;
+    margin-bottom: 5px;
+    justify-items: start;
+}
+
+.form-group {
+    padding: 0.5px;
+}
+
+h1 {
+    padding: 3px;
+}
+
+h5 {
+    padding: 0.5px;
+}
+h2 {
+    padding: 3px;
+}
+
+
+.text-user {
+    font-size: 1.2rem;
+}
+
+.onlineUsers {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 500px;
+}

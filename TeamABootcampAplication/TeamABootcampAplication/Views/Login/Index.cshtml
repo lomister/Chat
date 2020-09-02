@@ -1,0 +1,50 @@
+﻿@{
+    ViewData["Title"] = "Index";
+}
+
+@using (Html.BeginForm("Login", "Login", FormMethod.Post))
+{
+<div class="container col-6">
+    <div class="card m-6">
+        <div class="card-header">
+            <h1 class="text-center">Hermes</h1>
+            <h2 class="text-center">Login to your account</h2>
+        </div>
+
+        <div class="card-body">
+            <h1 class="text-danger">@ViewData["Message"]</h1>
+            <h1 class="text-success">@ViewBag.MessageGood</h1>
+
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Username" required name="username" value="@ViewBag.username" maxlength="25">
+            </div>
+            <div class="form-group">
+                <input type="password" class="form-control" placeholder="Password" required name="password" value="@ViewBag.password" maxlength="30">
+            </div>
+            <div class="form-group">
+                <label>
+                    <input type="checkbox" name="remember"> Remember me
+                </label>
+            </div>
+
+            <div class="form-group">
+                <button type="submit" class="btn btn-primary btn-block">Log in</button>
+            </div>
+            <div class="form-group text-right">
+                <a asp-controller="ResetPassword" asp-action="Index">Forgot your password?</a>
+            </div>
+            <div class="form-group text-center">
+                Don't have an account? <a asp-controller="Register" asp-action="Index">Sign up</a>
+            </div>
+
+            <hr class="my-2">
+        </div>
+    </div>
+    @*   --Facebook button
+            <div class="form-group">
+            <button class="btn-facebook btn btn-primary btn-block">
+                Sign in with <b>Facebook</b>
+            </button>
+        </div>*@
+</div>
+}
