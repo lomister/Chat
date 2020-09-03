@@ -12,7 +12,7 @@ ASP.NET MVC - 5.2.7
 
 # Installation
 
--- $composer require lomister/DiscordTop
+-- $composer require lomister/Chat
 
 # Online manual
 
