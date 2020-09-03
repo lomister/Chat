@@ -1,6 +1,6 @@
 # My Project
 ----
-# DiscordTop
+# Chat
 Accenture practice website
 
 # Authors - Danilijs Rudāns
