@@ -1,7 +1,23 @@
 # My Project
 ----
-- First project on asp .net
+# DiscordTop
+Accenture practice website
 
+# Authors - Danilijs Rudāns
+
+# Requirements
+
+ASP.NET last version
+ASP.NET MVC - 5.2.7
+
+# Installation
+
+-- $composer require lomister/DiscordTop
+
+# Online manual
+
+https://docs.microsoft.com/en-us/aspnet/core/getting-started/?view=aspnetcore-3.1&tabs=windows
+---------------------------------------------------------------------------------------------------------------
 # Variables
 ----
 - In general variables should be in camel case: **int xxxXxxxxXxxx** or **string queryString**
